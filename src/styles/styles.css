@@ -1,0 +1,54 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 2rem;
+}
+
+.arena{
+    display: grid;
+    grid-template-columns: 1fr 20rem 1fr;
+}
+
+.arena__mid{
+    display: grid;
+}
+
+div.Attack {
+    display: block;
+}
+
+.Status > h3.win {
+    color: green;
+}
+
+.Status > h3.lost {
+    color: red;
+}
+
+.Arena .diceAreas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.result{
+    height: 5rem;
+}
+
+.dices{
+    padding: 2rem;
+}
+
+.dice__img{
+    width: 5rem;
+    height: 100%;
+}
+
+.attack__btn{
+    box-shadow: 0 20px 47px 2px rgba(0,59,192,0.25);
+    border-radius: 5px;
+    background-color: #468cff;
+    color: #fff;
+    border: none;
+    padding: .5rem 1rem;
+}
+  
